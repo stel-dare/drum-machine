@@ -38,7 +38,8 @@ margin-top: 1em;
   display: inline-block;
   width: 30%;
   text-align: center;
-  background: #B7AE66;
+  background: #b766b0;
+  /*background: #B7AE66;*/
   margin: 1.5%;
   padding: 10% 0% 10% 0%;
   border-radius: 5px;
@@ -86,6 +87,30 @@ align-items: center;
 .controlNkeys{
   display: flex;
   flex-direction: column;
+}
+
+div.power.powerOff,i.fa-volume-up.powerOff{
+  color: #6a6a6b;
+}
+input[type=range]#volumeUp.powerOff{
+  background-color:  #6a6a6b;
+  display: none;
+}
+
+.mode.powerOff{
+  background: #0f1e1a;
+}
+.lcd.powerOff{
+  background: #1b1a24;
+}
+.keys div.powerOff{
+  background: #403d40;
+}
+.app.powerOff{
+  background: #050508;
+}
+body.powerOff{
+  background: #1b1b1c;
 }
 
 @media screen and (min-width: 765px) {
